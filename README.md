@@ -1,4 +1,6 @@
 # qsort-ED1-C
-Exercício proposto na disciplina de Estrutura de dados 1.
+Exercícios propostos na disciplina de Estrutura de dados 1.
 
-Ambiente onde o programa é executado: Visual Studio Code
+Ambiente onde os programas são executados: Visual Studio Code e Repl-it
+
+Link para o repl-it: https://repl.it/@ROMANOFF
