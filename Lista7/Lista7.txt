@@ -1,0 +1,7 @@
+A lista de exercício deve ser manuscrita.
+
+a)Fazer a operação de inserir após um nó especificado pela chave
+int dllINsertAfterSpec ( DLList *l, void *key, void *data, int (*cmp) (void *, void *))
+
+b) Fazer a operação de inserir antes de um nó especificado pela chave
+int dllINsertAfterSpec ( DLList *l, void *key, void *data, int (*cmp) (void *, void *))

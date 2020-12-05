@@ -1,0 +1,9 @@
+A lista de exercício deve ser um arquivo comprimido contendo (arquivo readme com o nome do ambiente onde o programa executa, arquivo fonte, executável do programa).  
+
+Faça um programa para:
+- ler a opção ( 1- Inteiro, 2 - Real)
+- ler um numero n;
+- alocar um vetor de n posições de números de acordo com a opçao do usuario;
+- ler os n numeros e guardar no vetor alocado;
+- usar a funcao qsort do C para ordenar esses dados;
+- imprimiri os dados ordenados.

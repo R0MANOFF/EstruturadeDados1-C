@@ -1,0 +1,13 @@
+A lista de exercício deve ser respondida manuscrita em papel e escaneada (fotografada), gerando um único arquivo pdf.  
+
+1.	Faça um algoritmo que recebe um vetor de n números reais e uma matriz mxp de números reais, e imprime em quais posições da matriz (linha e coluna) o valor é igual a um dos valores do vetor (informe também a posição do vetor).
+a.	Considere a matriz alocada como vetor de vetores (matriz 2D)
+int CmpVectorMatrix ( int n, int m, int p, float *vet, float **mat)
+b.	Considere a matriz alocada em um vetor unidimensional
+int CmpVectorMatrix ( int n, int m, int p, float *vet, float *mat)
+
+2.	Faça um algoritmo que recebe os inteiros n, m, p e q, e duas matrizes ma e mb e retorna o produto entre as duas matrizes.
+a.	Considere as matrizes alocadas como vetor de vetores (matriz 2D)
+int MultMatrix ( int n, int m, int p, int q, float **ma, float **mb)
+b.	Considere as matrizes alocadas em um vetor unidimensional
+int MultMatrix ( int n, int m, int p, int q, float *ma, float *mb)

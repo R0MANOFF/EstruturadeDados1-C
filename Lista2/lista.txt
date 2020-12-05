@@ -1,0 +1,18 @@
+A lista de exercício deve ser respondida manuscrita em papel e escaneada (fotografada), gerando um único arquivo pdf.  
+
+3.	Faça um algoritmo para:
+a.	Receber uma Matriz armazenada em um vetor e:
+i.	Retornar:
+0 – Se for um Matriz Quadrada;
+1 – Se for uma Matriz simétrica;
+2 – Se for Matriz Diagonal;
+3 – Se é Matriz Assimétrica;
+                      int TipodeMatriz(int *va, int n, int m)
+ii.	Retornar um vetor com a transposta da Matriz
+int *transposta(int *va, int n, int m)
+iii.	Retornar um vetor com os elementos da linha l da matriz a
+int * linhadaMatriz(int *va, int n, int m, int l)
+v.	Retornar Um vetor com os elementos da coluna “p” da matriz
+ int * colunadaMatriz(int *va, int n, int m, int p)
+vi.	Retornar Um vetor com os elementos da diagonal principal da matriz
+ int * diagonaldaMatriz(int *va, int n, int m)

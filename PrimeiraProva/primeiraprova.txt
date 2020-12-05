@@ -1,0 +1,33 @@
+1.Faça um algoritmo que recebe duas matrizes nxn armazenadas nos vetores v1 e v2 e,
+calcula uma nova matriz a ser armazenada no vetor v3 que corresponde a soma da
+matriz v1 com a matriz v2.
+int SomaMatrizes (int *v1, int *v2, int *v3, int n)
+
+
+2. Escreva um algoritmo para a operação Pune que pune um elemento em uma pilha
+colocando ele n posições para baixo. Considere que a pilha está implementada como
+um vetor.
+int Pune (Stack *s, int n)
+
+
+3. Dado um vetor de caracteres formado por uma sequência alternada de letras e
+dígitos numéricos (0 a 9), faça um algoritmo que retorne um vetor no qual as letras
+são mantidas na sequência original e os números são colocados na ordem inversa.
+Necessário usar um dos TADs Queue e Stack, ou os dois.
+Exemplos:
+A 1 E 5 T 7 W 8 G → A E T W G 8 7 5 1
+3 C 9 H 4 Q 6 → C H Q 6 4 9 3
+Como mostram os exemplos, as letras devem ser mostradas primeiro, seguidas dos
+números.
+Sugestões:
+- usar uma fila e uma pilha;
+- supor um método ehDigito()que retorna verdadeiro caso um caractere seja um
+dígito e falso caso seja uma letra.
+char *InverteString(char *str, int n)
+
+
+4. Faça um algoritmo que recebe uma fila implementada como um vetor circular e
+promove o n-esimo elemento da fila (caso ele exista) colocando-o na primeira
+posição. Caso a fila tenha menos que n elementos coloca o ultimo elemento na
+primeira posição da fila.
+int PromoveElementoFila (Queue *q, int n)
